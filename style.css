@@ -1,0 +1,99 @@
+/* 
+colors
+maincolor:#fa5252
+light main:#ffc9c9
+
+greyText:#868e96
+logincolor:##ff6b6b
+
+
+
+*/
+:root {
+  --two-colors: linear-gradient(to top, #fa5252, #ffc9c9);
+  --main-color: #fa5252;
+  --light_main: #ffc9c9;
+  ---grey-text: #868e96;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: inter;
+  color: #555;
+}
+
+.the-whole-page {
+  padding: 0 3.2rem;
+}
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+/* /////////////////////////////////////// */
+/* HEADER SECTION */
+/*//////////////////////////////////////////  */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.6rem;
+}
+
+.Sinau {
+  font-size: 2rem;
+  color: #fa5252;
+  font-weight: 600;
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #868e96;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #fa5252;
+  text-decoration: underline;
+}
+
+.nav-right {
+  display: flex;
+  gap: 2rem;
+}
+.nav-btn {
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.nav-btn-1:link,
+.nav-btn-1:visited {
+  transition: 0.2s;
+  border: 2px solid #ffc9c9;
+}
+.nav-btn-1:hover,
+.nav-btn-1:active {
+  color: #ff6b6b;
+}
+.nav-btn-2:link,
+.nav-btn-2:visited {
+  background-image: var(--two-colors);
+  color: #fff;
+}
+.nav-btn-2:hover,
+.nav-btn-2:active {
+  background-image: none;
+  background-color: #fa5252;
+}

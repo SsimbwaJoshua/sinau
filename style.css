@@ -37,6 +37,9 @@ html {
 
   margin-bottom: 130rem;
 }
+P {
+  font-family: Roboto;
+}
 
 /* /////////////////////////////////////// */
 /* HEADER SECTION */
@@ -52,7 +55,7 @@ html {
 .Sinau {
   font-size: 2rem;
   color: #fa5252;
-  font-weight: 600;
+  font-weight: 700;
 }
 .nav-links {
   display: flex;
@@ -108,10 +111,12 @@ html {
 .header {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
+  align-items: center;
 }
 
 .main-heading {
   font-size: 6rem;
+  font-family: Lora;
 }
 .red-heading {
   color: var(--main-color);
@@ -126,10 +131,11 @@ html {
 }
 /* ////////////////////////////////////////////// */
 .header-right {
+  position: relative;
   justify-self: center;
 }
 .big-1 {
-  position: relative;
+  width: 38rem;
   z-index: 5;
 }
 .pink-head-circle {
@@ -142,7 +148,32 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(5%, -35%);
+  transform: translate(5%, -38%);
+}
+.pic-cover-circle {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  border-bottom: 4rem solid #fff;
+  z-index: 7;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(5%, -31%);
+}
+.bag-hider {
+  width: 20rem;
+  height: 10rem;
+  z-index: 7;
+  background-color: #fff;
+
+  position: absolute;
+  top: 71%;
+  left: 71%;
+  /* transform: translate(70%, -50%); */
+  transform: rotate(130deg);
 }
 
 .dotted-circle {
@@ -260,4 +291,5 @@ html {
 }
 .graph-img {
   width: 18rem;
+  height: 8rem;
 }

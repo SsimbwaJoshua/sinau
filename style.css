@@ -132,7 +132,7 @@ P {
 /* ////////////////////////////////////////////// */
 .header-right {
   position: relative;
-  justify-self: center;
+  justify-self: end;
 }
 .big-1 {
   width: 38rem;
@@ -140,28 +140,29 @@ P {
 }
 .pink-head-circle {
   background-image: linear-gradient(to top, #ff6b6b, #ffc9c9);
-  width: 40rem;
-  height: 40rem;
+  width: 45rem;
+  height: 45rem;
   border-radius: 50%;
   z-index: -1;
 
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 29rem;
+  right: 1.5rem;
   transform: translate(5%, -38%);
 }
+/* ///////////////////////////////////////////////////////////////////// */
 .pic-cover-circle {
-  width: 40rem;
-  height: 40rem;
+  width: 45rem;
+  height: 45rem;
   border-radius: 50%;
   /* border: 1px solid red; */
-  border-bottom: 4rem solid #fff;
+  border-bottom: 2rem solid #fff;
   z-index: 7;
 
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(5%, -31%);
+  top: 29rem;
+  right: 1.5rem;
+  transform: translate(5%, -38%);
 }
 .bag-hider {
   width: 20rem;
@@ -170,22 +171,35 @@ P {
   background-color: #fff;
 
   position: absolute;
-  top: 71%;
-  left: 71%;
+  top: 48rem;
+  right: -7rem;
   /* transform: translate(70%, -50%); */
-  transform: rotate(130deg);
+  transform: rotate(140deg);
 }
 
+.bottom-hidder {
+  width: 10rem;
+  height: 5rem;
+  background-color: #fff;
+  z-index: 3;
+
+  position: absolute;
+  top: 52rem;
+  right: 30rem;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
 .dotted-circle {
-  width: 43rem;
-  height: 42rem;
-  border: 2px dotted #ff6b6b;
+  width: 48rem;
+  height: 47rem;
+  border: 2px dashed #ff6b6b;
   border-radius: 50%;
   z-index: -2;
 
   position: absolute;
-  top: 45%;
-  left: 50%;
+  top: 25rem;
+  right: -1rem;
   transform: translate(1.5%, -35%);
 }
 .small-circle-head {
@@ -195,8 +209,8 @@ P {
   background-image: var(--two-colors);
 
   position: absolute;
-  top: 40%;
-  left: 50.5%;
+  top: 25rem;
+  right: 44rem;
 }
 .grad-hat-head {
   background-image: var(--two-colors);
@@ -209,8 +223,8 @@ P {
   justify-content: center;
 
   position: absolute;
-  top: 30%;
-  left: 53%;
+  top: 15rem;
+  right: 38.5rem;
 }
 
 .head-free-courses {
@@ -221,8 +235,8 @@ P {
   z-index: 10;
 
   position: absolute;
-  top: 40%;
-  right: 17%;
+  top: 20rem;
+  right: -6rem;
 }
 .free-course {
   display: flex;
@@ -263,8 +277,8 @@ P {
   z-index: 10;
 
   position: absolute;
-  top: 65%;
-  right: 18%;
+  top: 40rem;
+  right: -6rem;
 }
 /* ////////////////////////////////////// */
 
@@ -277,8 +291,8 @@ P {
   width: 20rem;
 
   position: absolute;
-  top: 60%;
-  left: 48%;
+  top: 38rem;
+  right: 30rem;
 }
 .graph-text-1 {
   font-size: 1.6rem;

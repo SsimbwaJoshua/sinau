@@ -35,10 +35,13 @@ html {
   max-width: 120rem;
   margin: 0 auto;
 
-  margin-bottom: 130rem;
+  margin-bottom: 13rem;
 }
 P {
   font-family: Roboto;
+}
+h2 {
+  font-size: 3.6rem;
 }
 
 /* /////////////////////////////////////// */
@@ -313,4 +316,35 @@ P {
 .graph-img {
   width: 18rem;
   height: 8rem;
+}
+
+/* /////////////////////////////////////// */
+/* CHOOSE SECTION */
+/*//////////////////////////////////////////  */
+.choose-splitter {
+  display: flex;
+  gap: 20rem;
+}
+.choose-left-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-top: 2rem;
+}
+.choose-img {
+  width: 5.4rem;
+  height: 5.2rem;
+}
+.choose-text-1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 3rem 0 2rem 0;
+}
+.choose-text-2 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.choose-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
 }

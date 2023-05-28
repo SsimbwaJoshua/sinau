@@ -227,6 +227,10 @@ P {
   right: 38.5rem;
 }
 
+.grad-cap-icon {
+  font-size: 2rem;
+}
+
 .head-free-courses {
   background-color: #fff;
   padding: 1rem 1.6rem;
@@ -279,6 +283,9 @@ P {
   position: absolute;
   top: 40rem;
   right: -6rem;
+}
+.tower-icon {
+  font-size: 2.4rem;
 }
 /* ////////////////////////////////////// */
 

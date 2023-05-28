@@ -349,3 +349,36 @@ h2 {
   column-gap: 4rem;
   row-gap: 3rem;
 }
+
+/* /////////////////////////////////////// */
+/* HELP SECTION */
+/*//////////////////////////////////////////  */
+
+.help-splitter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.big-2 {
+  width: 38rem;
+  background-color: #fff;
+}
+.help-right {
+  align-self: center;
+}
+.help-text-0 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 2rem 0 6rem 0;
+}
+.help-sub-splitter {
+  display: flex;
+  justify-content: space-between;
+}
+.help-text-1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+.help-text-2 {
+  font-size: 1.8rem;
+}

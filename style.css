@@ -560,3 +560,11 @@ h2 {
   font-size: 2rem;
   color: #fcc419;
 }
+
+/* /////////////////////////////////////// */
+/*  SECTION Saying */
+/*//////////////////////////////////////////  */
+.saying-splitter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

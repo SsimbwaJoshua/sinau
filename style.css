@@ -37,7 +37,7 @@ html {
   max-width: 120rem;
   margin: 0 auto;
 
-  margin-bottom: 13rem;
+  margin-bottom: 20rem;
 }
 P {
   font-family: Roboto;
@@ -562,6 +562,9 @@ h2 {
   font-size: 2rem;
   color: #fcc419;
 }
+.star-grey {
+  color: #868e96;
+}
 
 /* /////////////////////////////////////// */
 /*  SECTION Saying */
@@ -569,9 +572,6 @@ h2 {
 .saying-splitter {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-.saying-right {
-  align-self: center;
 }
 .saying-text-1 {
   font-size: 1.6rem;

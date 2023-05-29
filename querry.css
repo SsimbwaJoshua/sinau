@@ -1,0 +1,103 @@
+/* //////////////////////////////// */
+/* 1100px */
+/* /////////////////////////////// */
+
+@media (max-width: 69em) {
+  .html {
+    font-size: 56.25;
+  }
+  .choose-splitter {
+    gap: 10rem;
+  }
+  .course-cell {
+    width: 31rem;
+  }
+
+  .course-pic {
+    width: 30rem;
+    height: 20rem;
+  }
+  .saying-splitter {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+  }
+}
+
+/* //////////////////////////////// */
+/* 964px */
+/* /////////////////////////////// */
+@media (max-width: 61em) {
+  .main-heading {
+    font-size: 5.4rem;
+  }
+  .choose-splitter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .choose-cell {
+    width: 27rem;
+  }
+  .choose-left {
+    text-align: center;
+  }
+  .help-splitter {
+    grid-template-columns: 1fr;
+  }
+  .help-right {
+    grid-row: 1/2;
+    text-align: center;
+  }
+  .help-sub-splitter {
+    justify-content: center;
+    gap: 4rem;
+  }
+  .help-left {
+    justify-self: center;
+  }
+  .course-variety {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 3rem;
+  }
+  .course-cell-3 {
+    grid-column: -3/-1;
+  }
+  .saying-splitter {
+    grid-template-columns: 1fr;
+  }
+  .saying-right {
+    grid-row: 1/2;
+    text-align: center;
+  }
+  .say-bottom-flex {
+    justify-content: center;
+    gap: 12rem;
+    margin-bottom: 6.4rem;
+  }
+  .saying-left {
+    justify-self: center;
+  }
+  .start-splitter {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .start-btns {
+    justify-self: center;
+  }
+  .header {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .header-right {
+    justify-self: center;
+  }
+  .header-left {
+    justify-self: center;
+    text-align: center;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+  }
+}

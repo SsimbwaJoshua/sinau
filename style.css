@@ -480,3 +480,83 @@ h2 {
 .help-text-2 {
   font-size: 1.8rem;
 }
+/* /////////////////////////////////////// */
+/* DISCOVER SECTION */
+/*//////////////////////////////////////////  */
+.discover-first-spliter {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-splitter {
+  display: flex;
+  gap: 2rem;
+}
+.disc-icon {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 1px rgba(204, 204, 204, 0.526),
+    -1px -1px 1px rgba(204, 204, 204, 0.532);
+
+  border-radius: 50%;
+}
+.less-than {
+  color: var(--main-color);
+}
+.more-than {
+  color: #fff;
+  background-image: var(--two-colors);
+}
+.course-variety {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9.6rem;
+}
+.course-cell {
+  width: 35rem;
+}
+
+.course-pic {
+  width: 34rem;
+  height: 24rem;
+  border-radius: 10px;
+}
+
+.discover-text-1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 2rem 0;
+}
+.discover-text-2 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.disc-bottom-flex {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.DT-1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.DT-2 {
+  font-size: 2rem;
+  color: #868e96;
+}
+.DT-3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+.star-flex {
+  display: flex;
+  gap: 1rem;
+}
+.star-icon {
+  font-size: 2rem;
+  color: #fcc419;
+}

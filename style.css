@@ -568,3 +568,74 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.saying-right {
+  align-self: center;
+}
+.saying-text-1 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 4rem 0 3rem 0;
+}
+.say-bottom-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.saying-text-2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.saying-text-3 {
+  font-size: 1.4rem;
+  color: #868e96;
+}
+
+/* ////////////////////////////////////// */
+.saying-left {
+  position: relative;
+}
+.big-3 {
+  width: 50rem;
+}
+.big-3-circle {
+  width: 45rem;
+  height: 45rem;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  z-index: -1;
+
+  position: absolute;
+  top: 10rem;
+  left: -1rem;
+}
+.big-3-circle-hider {
+  width: 45rem;
+  height: 45rem;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  /* border-bottom: 2px solid blue; */
+  z-index: 5;
+
+  position: absolute;
+  top: 10rem;
+  left: -1rem;
+  transform: rotate(340deg);
+}
+.big-3-lft-cover,
+.big-3-rgt-cover {
+  width: 10rem;
+  height: 5rem;
+  z-index: 5;
+  background-color: #fff;
+  position: absolute;
+}
+.big-3-lft-cover {
+  top: 53.3rem;
+  left: 7.5rem;
+  transform: rotate(20deg);
+}
+.big-3-rgt-cover {
+  top: 53.8rem;
+  left: 24rem;
+  transform: rotate(162deg);
+}

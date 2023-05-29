@@ -639,3 +639,66 @@ h2 {
   left: 24rem;
   transform: rotate(162deg);
 }
+/* /////////////////////////////////////// */
+/* START SECTION */
+/*//////////////////////////////////////////  */
+.start-splitter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--main-color);
+  border-radius: 20px;
+  padding: 7rem 10rem;
+  align-items: center;
+  position: relative;
+}
+
+.start-heading {
+  color: #fff;
+}
+
+.start-btns {
+  display: flex;
+  gap: 2rem;
+  justify-self: end;
+}
+.start-btn-1,
+.start-btn-2 {
+  font-size: 1.6rem;
+  padding: 1.6rem 3rem;
+  border-radius: 30px;
+  text-decoration: none;
+  max-height: 6rem;
+}
+
+.start-btn-1:link,
+.start-btn-1:visited {
+  color: var(--main-color);
+  background-color: #fff;
+}
+.start-btn-1:active,
+.start-btn-1:hover {
+  background-color: var(--light_main);
+  color: #fff;
+}
+.start-btn-2:link,
+.start-btn-2:visited {
+  color: #fff;
+  background-color: var(--main-color);
+  border: 1px solid #fff;
+}
+.start-btn-2:active,
+.start-btn-2:hover {
+  text-decoration: underline;
+}
+
+.fadded-circle {
+  width: 25rem;
+  height: 25rem;
+  /* color: rgba(255, 255, 255, 0.566); */
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+
+  position: absolute;
+  top: -5rem;
+  left: -4rem;
+}

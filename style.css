@@ -236,7 +236,7 @@ h2 {
 
 .head-free-courses {
   background-color: #fff;
-  padding: 1rem 1.6rem;
+  padding: 1rem;
   box-shadow: 2px 2px 4px #ccc;
   border-radius: 15px;
   z-index: 10;
@@ -358,10 +358,108 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.help-left {
+  position: relative;
+}
+/* ////////////////////////////// */
 .big-2 {
   width: 38rem;
   background-color: #fff;
 }
+.red2-ball {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-image: var(--two-colors);
+  z-index: 10;
+
+  position: absolute;
+  top: 20rem;
+  left: -2rem;
+}
+.purple2-ball {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  /* background-color: #cc5de8; */
+  background-image: linear-gradient(to top, #cc5de8, #eebefa);
+  z-index: 10;
+
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+}
+.yellow2-ball {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-image: linear-gradient(to top, #fcc419, #ffec99);
+  z-index: 10;
+
+  position: absolute;
+  top: 12rem;
+  left: 32rem;
+}
+
+.pic-bottom-round {
+  border-bottom: 3rem solid #fff;
+
+  width: 38rem;
+  height: 38rem;
+  border-radius: 50%;
+  z-index: 7;
+
+  position: absolute;
+  top: 8.5rem;
+  left: 3rem;
+}
+
+.left-cover,
+.right-cover {
+  width: 20rem;
+  height: 10rem;
+  position: absolute;
+  z-index: 7;
+}
+.left-cover {
+  transform: rotate(40deg);
+  top: 40rem;
+  left: -2rem;
+  background-color: #fff;
+}
+.right-cover {
+  transform: rotate(150deg);
+  top: 40rem;
+  left: 26rem;
+  background-color: #fff;
+}
+.tower-2 {
+  display: flex;
+  gap: 1rem;
+  background-image: var(--two-colors);
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.2rem 1.8rem;
+  border-radius: 30px;
+  z-index: 10;
+
+  position: absolute;
+  top: 37rem;
+  left: 28rem;
+}
+.courses-2 {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 2px 2px 4px #ccc;
+  border-radius: 15px;
+  z-index: 10;
+
+  position: absolute;
+  top: 29rem;
+  left: -5rem;
+}
+
+/* ///////////////////////////////////// */
 .help-right {
   align-self: center;
 }

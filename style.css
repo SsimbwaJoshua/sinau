@@ -1,17 +1,19 @@
 /* 
 colors
-maincolor:#fa5252
+maincolor:#f9595f
 light main:#ffc9c9
 
 greyText:#868e96
 logincolor:##ff6b6b
+
+cross-check:#f9595f
 
 
 
 */
 :root {
   --two-colors: linear-gradient(to top, #fa5252, #ffc9c9);
-  --main-color: #fa5252;
+  --main-color: #f9595f;
   --light_main: #ffc9c9;
   ---grey-text: #868e96;
 }
@@ -601,7 +603,7 @@ h2 {
   width: 45rem;
   height: 45rem;
   border-radius: 50%;
-  background-color: var(--main-color);
+  background-color: #ffc9c9;
   z-index: -1;
 
   position: absolute;
@@ -650,6 +652,7 @@ h2 {
   padding: 7rem 10rem;
   align-items: center;
   position: relative;
+  margin: 9.6rem 0;
 }
 
 .start-heading {
@@ -701,4 +704,75 @@ h2 {
   position: absolute;
   top: -5rem;
   left: -4rem;
+}
+
+/* /////////////////////////////////////// */
+/* FOOTER*/
+/*//////////////////////////////////////////  */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3.5rem;
+
+  font-size: 1.6rem;
+}
+.Sinau {
+  font-size: 2rem;
+}
+.left-foot-text {
+  margin: 4rem 0 2rem 0;
+}
+.foot-icons {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+}
+.foot-header {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+.foot-linker {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.foot-links:link,
+.foot-links:visited {
+  text-decoration: none;
+  color: #868e96;
+  cursor: pointer;
+}
+.foot-links:active,
+.foot-links:hover {
+  text-decoration: underline;
+}
+.foot-text-right {
+  margin-bottom: 2rem;
+}
+
+.inPut {
+  height: 5rem;
+  width: 100%;
+  border: 2px solid #868e96;
+  border-radius: 10px;
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+.foot-form {
+  position: relative;
+}
+.foot-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  background-image: var(--two-colors);
+  padding: 0.5rem;
+
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
 }

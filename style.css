@@ -47,6 +47,23 @@ h2 {
 }
 
 /* /////////////////////////////////////// */
+/* Phone SECTION */
+/*//////////////////////////////////////////  */
+.hidden {
+  display: none;
+}
+.for-phone {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu-icon {
+  border: none;
+  background-color: #fff;
+  font-size: 2.4rem;
+}
+/* /////////////////////////////////////// */
 /* HEADER SECTION */
 /*//////////////////////////////////////////  */
 .navigation {
@@ -55,6 +72,8 @@ h2 {
   align-items: center;
   margin-top: 3.6rem;
   margin-bottom: 6.4rem;
+
+  position: relative;
 }
 
 .Sinau {

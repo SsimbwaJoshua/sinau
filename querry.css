@@ -341,7 +341,7 @@
 /* /////////////////////////////// */
 @media (max-width: 30em) {
   .the-whole-page {
-    margin: 0 1rem;
+    margin: 0 1.5rem;
   }
   .container {
     margin-bottom: 13rem;
@@ -490,6 +490,6 @@
     padding: 0.7rem;
   }
   .header {
-    margin-left: 1.8rem;
+    margin-left: 2rem;
   }
 }

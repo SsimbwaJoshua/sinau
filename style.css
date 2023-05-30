@@ -31,7 +31,7 @@ html {
 }
 
 .the-whole-page {
-  padding: 0 3.2rem;
+  margin: 0 3.2rem;
 }
 .container {
   max-width: 120rem;
@@ -737,6 +737,7 @@ h2 {
   gap: 3.5rem;
 
   font-size: 1.6rem;
+  line-height: 1.6;
 }
 .Sinau {
   font-size: 2rem;

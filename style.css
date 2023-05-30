@@ -507,6 +507,7 @@ h2 {
 .discover-first-spliter {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .btn-splitter {
   display: flex;
@@ -690,6 +691,7 @@ h2 {
   border-radius: 30px;
   text-decoration: none;
   max-height: 6rem;
+  text-align: center;
 }
 
 .start-btn-1:link,

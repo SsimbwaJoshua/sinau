@@ -46,6 +46,7 @@
   }
   .help-splitter {
     grid-template-columns: 1fr;
+    gap: 6.4rem;
   }
   .help-right {
     grid-row: 1/2;
@@ -296,5 +297,162 @@
   .big-3-rgt-cover {
     top: 33rem;
     left: 10rem;
+  }
+}
+
+/* //////////////////////////////// */
+/* 514px */
+/* /////////////////////////////// */
+@media (max-width: 33em) {
+  .start-btns {
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  .main-heading {
+    font-size: 4.6rem;
+  }
+
+  .nav-btn-1:link,
+  .nav-btn-2:visited {
+    font-size: 1.3rem;
+  }
+  .nav-btn-2:link,
+  .nav-btn-2:visited {
+    font-size: 1.3rem;
+  }
+}
+
+/* //////////////////////////////// */
+/* 490px */
+/* /////////////////////////////// */
+@media (max-width: 30em) {
+  .big-1 {
+    width: 25rem;
+  }
+  .pink-head-circle {
+    width: 30rem;
+    height: 30rem;
+
+    top: 18rem;
+    right: 0rem;
+  }
+  .dotted-circle {
+    width: 32rem;
+    height: 31rem;
+
+    top: 15rem;
+    right: -2rem;
+  }
+  .small-circle-head {
+    width: 2.2rem;
+    height: 2.2rem;
+
+    top: 17rem;
+    right: 28.5rem;
+  }
+  .grad-hat-head {
+    width: 3.6rem;
+    height: 3.6rem;
+    top: 7rem;
+    right: 23rem;
+  }
+  .head-free-courses {
+    top: 11rem;
+    right: -5rem;
+    padding: 0.7rem;
+  }
+  .movie-icon {
+    font-size: 1.6rem;
+  }
+  .aaa {
+    padding: 0.7rem;
+  }
+  .red-10 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .bbbb {
+    font-size: 1rem;
+  }
+  .re-use-flex {
+    font-size: 1.6rem;
+    padding: 1rem;
+
+    top: 27rem;
+    right: -3rem;
+  }
+  .tower-icon {
+    font-size: 1.8rem;
+  }
+  .graph {
+    width: auto;
+    top: 25rem;
+    right: 17rem;
+  }
+  .graph-img {
+    width: 12rem;
+    height: 5rem;
+    padding: 1rem;
+  }
+  .graph-text-1 {
+    font-size: 1.4rem;
+  }
+  .graph-text-2 {
+    font-size: 1rem;
+  }
+  /* //////////////// */
+  .pic-cover-circle {
+    width: 30rem;
+    height: 30rem;
+    /* border: 1px solid red; */
+
+    top: 18rem;
+    right: 0rem;
+  }
+  .bag-hider {
+    top: 32rem;
+    transform: rotate(150deg);
+  }
+  .courses-2 {
+    top: 29rem;
+    left: -2rem;
+  }
+  h2 {
+    font-size: 2.8rem;
+  }
+  .nav-right {
+    gap: 1rem;
+  }
+  .inPut {
+    font-size: 1.2rem;
+  }
+  .foot-arrow {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.4rem;
+  }
+}
+
+/* //////////////////////////////// */
+/* 390px */
+/* /////////////////////////////// */
+@media (max-width: 24em) {
+  .main-heading {
+    font-size: 4rem;
+  }
+  .graph {
+    right: 14rem;
+  }
+  .discover-first-spliter {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+  .head-free-courses {
+    top: 11rem;
+    right: -3rem;
+    padding: 0.7rem;
   }
 }

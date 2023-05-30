@@ -175,4 +175,126 @@
   .start-splitter {
     padding: 3.5rem 5rem;
   }
+  /* //////////big1 ////////// */
+
+  .big-1 {
+    width: 30rem;
+  }
+  .pink-head-circle {
+    width: 34rem;
+    height: 34rem;
+
+    top: 23rem;
+    right: 1.5rem;
+  }
+  .dotted-circle {
+    width: 37rem;
+    height: 36rem;
+
+    top: 20rem;
+    right: -1rem;
+  }
+  .small-circle-head {
+    top: 22rem;
+    right: 34rem;
+  }
+  .grad-hat-head {
+    top: 12rem;
+    right: 29.5rem;
+  }
+  .head-free-courses {
+    top: 15rem;
+    right: -6rem;
+  }
+  .re-use-flex {
+    top: 33rem;
+    right: -5rem;
+  }
+  .graph {
+    width: auto;
+    top: 30rem;
+    right: 21rem;
+  }
+  .graph-img {
+    width: 15rem;
+    height: 7rem;
+    padding: 1rem;
+  }
+  /* //////////////// */
+  .pic-cover-circle {
+    width: 34rem;
+    height: 34rem;
+    /* border: 1px solid red; */
+
+    top: 23.5rem;
+    right: 1.5rem;
+  }
+  .bag-hider {
+    top: 38.5rem;
+    transform: rotate(144deg);
+  }
+  .big-2 {
+    width: 32rem;
+  }
+  .red2-ball {
+    top: 17rem;
+    left: -2rem;
+  }
+  .yellow2-ball {
+    top: 12rem;
+    left: 28rem;
+  }
+  .purple2-ball {
+    top: 8rem;
+    left: 5rem;
+  }
+  .tower-2 {
+    top: 27rem;
+    left: 24rem;
+  }
+  .pic-bottom-round {
+    width: 28rem;
+    height: 28rem;
+
+    top: 10.5rem;
+    left: 3rem;
+  }
+  .left-cover {
+    top: 35rem;
+  }
+  .right-cover {
+    transform: rotate(140deg);
+    top: 33rem;
+    left: 19rem;
+  }
+  .big-3 {
+    width: 30rem;
+  }
+  .big-3-circle {
+    width: 27rem;
+    height: 27rem;
+
+    top: 6rem;
+    left: -1rem;
+  }
+  .big-3-circle-hider {
+    width: 27rem;
+    height: 27rem;
+    border-bottom: 2px solid #fff;
+
+    top: 6rem;
+    left: -1rem;
+    transform: rotate(350deg);
+  }
+
+  .big-3-lft-cover {
+    top: 32.4rem;
+    left: 3.5rem;
+
+    transform: rotate(17deg);
+  }
+  .big-3-rgt-cover {
+    top: 33rem;
+    left: 10rem;
+  }
 }
